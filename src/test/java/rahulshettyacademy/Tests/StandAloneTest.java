@@ -19,6 +19,7 @@ public class StandAloneTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//new comments are added
+		//comments added again
 		//Webdriver manager dependency can be added in pom.xml and then there would be no need to set up chrome driver property
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
