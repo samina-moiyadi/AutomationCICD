@@ -1,0 +1,11 @@
+name: Suite
+configFailurePolicy: skip
+tests:
+  - name: Submit Order Test
+  classes:
+    - rahulshettyacademy.Tests.SubmitOrderTest
+
+  - name: Error Validations Test
+  classes:
+    - rahulshettyacademy.Tests.ErrorValidationsTest
+
